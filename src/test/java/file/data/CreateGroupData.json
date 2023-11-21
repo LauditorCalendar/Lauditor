@@ -1,0 +1,27 @@
+[
+	
+	{
+		"groupname" :"Civil Laws Case 12",
+		"description" : "Data stored client related",
+		"addMember1":"Tom Wagner",
+		"addMember2":"Susan Walsh",
+		"addMember3":"Lawrence Williams",
+		"addMember4":"Jordan Brown",
+		"addMember5":"Michael Parker",
+		"membernameremoved" : "Lawrence Williams",
+		"groupHeadNames" : "Tom Wagner"
+	},
+		{
+
+		"groupname" :"Civil Laws Case12",
+		"description" : "Data stored client related",
+		"addMember1" : "Rossy",
+		"addMember2" : "Vengadesh RSB Associates",
+		"addMember3" : "Susan",
+		"addMember4" :  "",
+		"addMember5" : "",
+ 		"membernameremoved" : "Vengadesh RSB Associates",
+		"groupHeadNames" : "Susan"
+	}
+	
+]

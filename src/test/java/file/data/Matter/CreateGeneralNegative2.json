@@ -1,0 +1,275 @@
+[
+	{"_comment": "0.Enter the All Details and Click on Cancel button",
+		"caseTitle":"General Matter 1",
+		"matterNumber":"GH567",
+		"startDate":" 22 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High"
+	},
+	{
+		"_comment": "1.Select the Groups and Click on Cancel ",
+		"caseTitle":"General Matter 2",
+		"matterNumber":"GH890",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law"
+
+	},
+	{
+		"_comment": "2.Select the Groups and Select All Click on Cancel ",
+		"caseTitle":"General Matter 3",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High"
+
+	},
+	{
+		"_comment": "3.Select the Clients and Click on Cancel  ",
+		"caseTitle":"General Matter 3",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar"
+		
+
+	},
+	{
+		"_comment": "4.Select the Clients and Select All Click on Cancel ",
+        "caseTitle":"General Matter 4",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law"
+	},
+	{
+		"_comment": "5.selectTeamMemberandClickCancel ",
+		"caseTitle":"General Matter 5",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Documents related to general case",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford"
+		
+
+	},
+	{
+		"_comment": "6.selectTeamMeberSeletAllandClickCancel",
+		"caseTitle":"General Matter 6",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar"
+
+	},
+	{
+		"_comment": "7.selectDocumentandClickCancel",
+		"caseTitle":"General Matter 7",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford",
+		"documentName1": "Alliance TM 2",
+		"documentName2": "Apollo TM 2"
+
+	},
+	{
+		"_comment": "8.selectDocumentsSeletAllandClickCancel",
+		"caseTitle":"General Matter 8",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford"
+
+	},
+	{
+		"_comment": "9.enterAllDetailsandConfirmPopupClickNO",
+		"caseTitle":"General Matter 9",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford",
+		"documentName1": "Alliance TM 2",
+		"documentName2": "Apollo TM 2"
+	},
+	{
+		"_comment": "10.enterAllDetailsandViewMatterPopup",
+		"caseTitle":"General Matter 10",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford",
+		"documentName1": "Alliance TM 2",
+		"documentName2": "Apollo TM 2"
+
+	},
+	{
+		"_comment": "11.enterAllDetailsWithoutTeamMemberandViewMatterPopup",
+		"caseTitle":"General Matter 11",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"documentName1": "Alliance TM 2",
+		"documentName2": "Apollo TM 2"
+
+	},
+	{
+		"_comment": "12.enterAllDetailsWithoutDocumentandViewMatterPopup",
+		"caseTitle":"General Matter 12",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar",
+		"memberName1": "Donald Carpenter",
+		"memberName2": "Jason Gifford"
+
+	},
+	{
+		"_comment": "13.enterAllDetailsWithoutTMandDocumentandViewMatterPopup",
+		"caseTitle":"General Matter 13",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"individualsClientName1": "Neela Chinnappa",
+		"individualsClientName2": "Ananth kumar"
+
+	},
+	{
+		"_comment": "14.enterAllDetailsandSelectAllNames",
+		"caseTitle":"General Matter 14",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law"
+
+	},
+	{
+		"_comment": "15.selectTempClientIndividualsandClickCancel",	
+		"caseTitle":"General Matter 15",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"searchTextIndividuals": "Kamal",
+		"firstName": "Kamal",
+		"lastName": "VM",
+		"email": "Kamal69@gm.com",
+		"confirmEmail": "Kamal69@gm.com",
+		"country": "Belgium",
+		"phoneNumber": "8582828533"
+		},
+		{
+		"_comment": "16.selectTempClientEntityandClickCancel",	
+		"caseTitle":"General Matter 16",
+		"matterNumber":"GM908",
+		"startDate":" 2 ",
+		"closeDate":" 30 ",
+		"description":"Which can enhance their knowledge and expertise in the field",
+		"matterType":"General Matter",
+		"prioritySelect":"High",
+		"groupName1":"Family Law",
+		"groupName2":"Immigration Law",
+		"searchTextEntity": "VishwaAnand",
+		"firmName": "VishwaAnand Firm",
+		"contactPerson": "Vikram",
+		"emailId": "VishwaAnand65@gm.com",
+		"confirmEmailId": "VishwaAnand65@gm.com",
+		"countryEntitys": "Belgium",
+		"mobileNumber": "9637418526"
+		
+
+		},
+		{
+			
+		}
+	
+]

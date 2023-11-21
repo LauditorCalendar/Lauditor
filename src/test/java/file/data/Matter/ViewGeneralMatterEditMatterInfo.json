@@ -1,0 +1,210 @@
+[
+	{
+		"_comment":"0.editMatterInfoMandatoryWithSD",
+		"matterName":"General Case 1",
+		"caseTitle":"Register of Sessions cases",
+		"caseNumber":"AGHW11",
+		"startDate":" 5 "
+	},
+	{
+		"_comment":"1.editMatterInfoMandatoryWithCD",
+		"matterName":"Register of Sessions cases",
+		"caseTitle":"Child Kidnapping Case",
+		"caseNumber":"ATN16",
+		"closeDate":" 7 "
+
+	},
+	{
+		"_comment":"2.editMatterInfoMandatoryWithDescription",
+		"matterName":"Child Kidnapping Case",
+		"caseTitle":"Child Custody Case",
+		"caseNumber":"ARSV98",
+		"Description":"Child custody consists of legal custody, which is the right to make decisions           about the child, and physical custody, which is the right and duty to house, provide and care for the child"
+	},
+	{
+		"_comment":"3.editMatterInfoMandatoryWithMatterType",
+		"matterName":"Child Custody Case",
+		"caseTitle":"Service Matter cases",
+		"caseNumber":"ALPV98",
+		"matterType":"General Matter"
+	},
+	{
+		"_comment":"4.editMatterInfoMandatoryWithPriority",
+		"matterName":"Service Matter cases",
+		"caseTitle":"Labour Matters",
+		"caseNumber":"AV98",
+		"Priority":"High"
+	},
+	{   "_comment":"5.editMatterInfoMandatoryWithStatus",
+		"matterName":"Labour Matters",
+		"caseTitle":"Eviction matters of personal necessity",
+		"caseNumber":"AW187"
+		
+	},
+	{
+		"_comment":"6.editMatterInfoMandatoryWithSDandCD",
+		"matterName":"Eviction matters of personal necessity",
+		"caseTitle":"Rent Act Matters",
+		"caseNumber":"DFG678",
+		"startDate":" 8 ",
+		"closeDate":" 25 "
+
+	},
+	{
+		"_comment":"7.editMatterInfoMandatoryWithSDWithDescription",
+		"matterName":"Rent Act Matters",
+		"caseTitle":"Rent Act Matters 1",
+		"caseNumber":"DWDC678",
+		"startDate":" 10 ",
+		"Description":"Civil courts handle a wide variety of cases involving numerous legal issues"
+	},
+	{
+		"_comment":"8.editMatterInfoMandatoryWithSDandMattertype",
+		"matterName":"Rent Act Matters 1",
+		"caseTitle":"Register of Appeal Cases disposed",
+		"caseNumber":"AGMW20",
+		"startDate":" 15 ",
+		"matterType":"Criminal Case"
+	},
+	{
+		"_comment":"9.editMatterInfoMandatoryWithSDandPriority",
+		"matterName":"Register of Appeal Cases disposed",
+		"caseTitle":"Register cases received",
+		"caseNumber":"BVHW20",
+		"startDate":" 18 ",
+		"priority":"Medium"
+	},
+	{
+		"_comment":"10.editMatterInfoMandatoryWithSDandStatus",
+		"matterName":"Register cases received",
+		"caseTitle":"Register cases ",
+		"caseNumber":"ASRW20",
+		"startDate":" 12 "
+	},
+	{
+		"_comment":"11.editMatterInfoMandatoryWithCDandDescription",
+		"matterName":"Register cases",
+		"caseTitle":"Register of Miscellaneous and Maintenance",
+		"caseNumber":"AERW70",
+		"closeDate":" 20 ",
+		"Description":"At the time of acceptance the surety the signature/Thumb Impression"
+	},
+	{
+		"_comment":"12.editMatterInfoMandatoryWithCDandMatterType",
+		"matterName":"Register of Miscellaneous and Maintenance",
+		"caseTitle":"Register of Miscellaneous",
+		"caseNumber":"AEOL70",
+		"closeDate":" 9 ",
+		"matterType":"Register Results of Inquiries and Trials"
+	},
+	{
+		"_comment":"13.editMatterInfoMandatoryWithCDandPriority",
+		"matterName":"Register of Miscellaneous",
+		"caseTitle":"Register of Revision Cases disposed",
+		"caseNumber":"SGOL70",
+		"closeDate":" 25 ",
+		"Priority":"Low"
+	},
+	{
+		"_comment":"14.editMatterInfoMandatoryWithCDandStatus",
+		"matterName":"Register of Revision Cases disposed",
+		"caseTitle":"Register of Revision Cases",
+		"caseNumber":"SGKL60",
+		"closeDate":" 17 "
+	},
+	{
+		"_comment":"15.editMatterInfoMandatoryWithDesandMatterType",
+		"matterName":"Register of Revision Cases",
+		"caseTitle":"Diary Register",
+		"caseNumber":"SGKL60",
+		"Description":"A set of documents related to dairy register",
+		"matterType":"General case"
+
+	},
+	{
+		"_comment":"16.editMatterInfoMandatoryWithDesandPriority",
+		"matterName":"Diary Register",
+		"caseTitle":"The Various types of child custody",
+		"caseNumber":"DEUL60",
+		"Description":"A set of documents related to child custody case",
+		"Priority":"High"
+	},
+	{
+		"_comment":"17.editMatterInfoMandatoryWithDesandStatus",
+		"matterName":"The Various types of child custody",
+		"caseTitle":"Legal Custody in Joint Custody Arrangements",
+		"caseNumber":"KLBL60",
+		"Description":"A set of documents related to Joint Custody Arrangements"
+		
+
+	},
+	{
+		"_comment":"18.editMatterInfoMandatoryWithDesandStatus",
+		"matterName":"Legal Custody in Joint Custody Arrangements",
+		"caseTitle":"Physical Custody",
+		"caseNumber":"KLBL60",
+		"matterType":"General Matter",
+		"Priority":"Medium"
+	},
+	{
+		"_comment":"19.editMatterInfoMandatoryWithMatterTypeandStatus",
+		"matterName":"Physical Custody",
+		"caseTitle":"Joint Custody",
+		"caseNumber":"PLBL70",
+		"matterType":"Legal Matter"
+		
+	},
+	{
+		"_comment":"20.editMatterInfoMandatoryWithPriorityandStatus",
+		"matterName":"Joint Custody",
+		"caseTitle":"A history of substance abuse",
+		"caseNumber":"PLBL70",
+		"Priority":"Low"
+	},
+	{
+		
+		"_comment":"21.editMatterInfoMandatoryWithSDCDandDescription",
+		"matterName":"A history of substance abuse",
+		"caseTitle":"Register of Miscellaneous and Maintenance",
+		"caseNumber":"AERW70",
+		"startDate":" 1 ",
+		"closeDate":" 20 ",
+		"Description":"At the time of acceptance the surety the signature/Thumb Impression"
+	},
+	{
+		
+		"_comment":"22.editMatterInfoMandatoryWithSDCDandMatterType",
+		"matterName":"Register of Miscellaneous and Maintenance",
+		"caseTitle":"The Best Interest of the Child Standard",
+		"caseNumber":"AWDRW90",
+		"startDate":" 9 ",
+		"closeDate":" 28 ",
+		"matterType":"Legal Matter"
+	},
+	{
+		"_comment":"23.editMatterInfoMandatoryWithSDCDandMatterType",
+		"matterName":"The Best Interest of the Child Standard",
+		"caseTitle":"Visitation Rights",
+		"caseNumber":"AWDRW90",
+		"startDate":" 9 ",
+		"closeDate":" 28 ",
+		"Priority":"High"
+	},
+	{
+		"_comment":"24.editMatterInfoMandatoryWithAllFields",
+		"matterName":"Visitation Rights",
+		"caseTitle":"Visitation Rights and corouptions",
+		"caseNumber":"AWDRW90",
+		"startDate":" 10 ",
+		"closeDate":" 29 ",
+		"Description":"Definition and explanation of physical custody",
+		"matterType":"General Matter",
+		"Priority":"High"
+	},
+	{
+		"_comment":"25.editMatterInfoMandatoryFieldOnly",
+		"matterName":"Visitation Rights and corouptions",
+		"caseTitle":"Visitation Rights and Legals",
+		"caseNumber":"AWDRW90"
+	}
+]

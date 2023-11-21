@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 17:00:37 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>3036 seconds (3036877 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividuals()'><b>clientsIndividuals</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB01, caseTitle=Legal Case 1, individualsClientName2=Ananth kumar, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>87</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandTempClientsWithTMandDocuments()'><b>clientsIndividualsandTempClientsWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=G, country=Belgium, mobileNumber=9693939696, contactPerson=Noah, emailId=Noah@gm.com, memberName1=Donald Carpenter, memberName2=Jason Gifford, caseNumber=AB016, searchTextIndividuals=Henry, email=Henry@gm.com, documentName1=Vengadesh GH 1, documentName2=AnathKumar GH 1, caseTitle=Legal Case 16, searchTextEntity=Noah, countryEntitys=Belgium, individualsClientName2=Ananth kumar, confirmEmail=Henry@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Noah@gm.com, groupName2=Immigration Law, firstName=Henry, phoneNumber=7878454544, firmName=Noah Firm, groupName1=Family Law}</td>
+<td></td>
+<td>172</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityWithDocuments()'><b>clientsEntityWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Alliance TM 2, documentName2=Apollo TM 2, caseNumber=AB07, caseTitle=Legal Case 7, entityClientName2=Apollo Healthcare, entityClientName1=Alliance Law Group, groupName1=Family Law}</td>
+<td></td>
+<td>90</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsWithTMandDocuments()'><b>clientsIndividualsWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Vengadesh GH 1, documentName2=AnathKumar GH 1, caseNumber=AB04, caseTitle=Legal Case 4, memberName1=Donald Carpenter, memberName2=Jason Gifford, individualsClientName2=Ananth kumar, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>101</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityandTempClientsWithDocuments()'><b>clientsIndividualsandEntityandTempClientsWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=F, country=Belgium, documentName1=Vengadesh GH 1, documentName2=Alliance TM 2, mobileNumber=7878454540, caseTitle=Legal Case 23, searchTextEntity=Stella, contactPerson=Stella, emailId=Stella@gm.com, countryEntitys=Belgium, confirmEmail=Riley@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Stella@gm.com, groupName2=Immigration Law, firstName=Riley, phoneNumber=7878454545, caseNumber=AB023, searchTextIndividuals=Riley, firmName=Stella Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Riley@gm.com}</td>
+<td></td>
+<td>163</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityandTempClientsWithTMandDocuments()'><b>clientsIndividualsandEntityandTempClientsWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=B, country=Belgium, mobileNumber=9693939696, contactPerson=Theodore, emailId=Theodore@gm.com, memberName1=Donald Carpenter, memberName2=Jason Gifford, caseNumber=AB024, searchTextIndividuals=Amelia, entityClientName1=Alliance Law Group, email=Amelia@gm.com, documentName1=Vengadesh GH 1, documentName2=Alliance TM 2, caseTitle=Legal Case 24, searchTextEntity=Theodore, countryEntitys=Belgium, confirmEmail=Amelia@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Theodore@gm.com, groupName2=Immigration Law, firstName=Amelia, phoneNumber=7878454544, firmName=Theodore Firm, groupName1=Family Law}</td>
+<td></td>
+<td>176</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityandTempClientsWithTMandDocuments()'><b>clientsEntityandTempClientsWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=V, country=Belgium, mobileNumber=9693939696, contactPerson=Elijah, emailId=Elijah@gm.com, memberName1=Donald Carpenter, memberName2=Jason Gifford, caseNumber=AB020, searchTextIndividuals=Oliver, entityClientName2=Apollo Healthcare, entityClientName1=Alliance Law Group, email=Oliver@gm.com, documentName1=Alliance TM 2, documentName2=Apollo TM 2, caseTitle=Legal Case 20, searchTextEntity=Elijah, countryEntitys=Belgium, confirmEmail=Oliver@gm.com, confirmEmailId=Elijah@gm.com, groupName2=Immigration Law, firstName=Oliver, phoneNumber=7878454544, firmName=Elijah Firm, groupName1=Family Law}</td>
+<td></td>
+<td>173</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityWithTMandDocuments()'><b>clientsEntityWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Alliance TM 2, documentName2=Apollo TM 2, caseNumber=AB08, caseTitle=Legal Case 8, entityClientName2=Apollo Healthcare, memberName1=Donald Carpenter, entityClientName1=Alliance Law Group, memberName2=Jason Gifford, groupName1=Family Law}</td>
+<td></td>
+<td>102</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandTempClientsWithTeamMembers()'><b>clientsIndividualsandTempClientsWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=M, country=Belgium, mobileNumber=7878454545, caseTitle=Legal Case 14, searchTextEntity=WilliamM, contactPerson=WilliamM, emailId=WilliamM@gk.com, countryEntitys=Belgium, memberName1=Donald Carpenter, memberName2=Jason Gifford, individualsClientName2=Ananth kumar, confirmEmail=Michael@fm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=WilliamM@gk.com, groupName2=Immigration Law, firstName=Michael, phoneNumber=7878989896, caseNumber=AB014, searchTextIndividuals=Michaels, firmName=William Firm, groupName1=Family Law, email=Michael@fm.com}</td>
+<td></td>
+<td>159</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandTempClientsWithDocuments()'><b>clientsIndividualsandTempClientsWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=B, country=Belgium, documentName1=Vengadesh GH 1, documentName2=AnathKumar GH 1, mobileNumber=7878454540, caseTitle=Legal Case 15, searchTextEntity=Daniel, contactPerson=Daniel, emailId=Daniel@gmc.com, countryEntitys=Belgium, individualsClientName2=Ananth kumar, confirmEmail=Benjamin@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Daniel@gmc.com, groupName2=Immigration Law, firstName=Benjamin, phoneNumber=7878454545, caseNumber=AB015, searchTextIndividuals=Benjamin, firmName=Daniel Firm, groupName1=Family Law, email=Benjamin@gm.com}</td>
+<td></td>
+<td>160</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsWithTeamMembers()'><b>clientsIndividualsWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB02, caseTitle=Legal Case 2, memberName1=Donald Carpenter, memberName2=Jason Gifford, individualsClientName2=Ananth kumar, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>89</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityandTempClients()'><b>clientsIndividualsandEntityandTempClients</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=S, country=Belgium, mobileNumber=8989868696, caseTitle=Legal Case 21, searchTextEntity=Madison , contactPerson=Madison, emailId=Madison@gm.com, countryEntitys=Belgium, confirmEmail=Layla@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Madison@gm.com, groupName2=Immigration Law, firstName=Layla, phoneNumber=9696969693, caseNumber=AB021, searchTextIndividuals=Layla, firmName=Madison Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Layla@gm.com}</td>
+<td></td>
+<td>148</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntity()'><b>clientsEntity</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB05, caseTitle=Legal Case 5, entityClientName2=Apollo Healthcare, entityClientName1=Alliance Law Group, groupName1=Family Law}</td>
+<td></td>
+<td>77</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandTempClients()'><b>clientsIndividualsandTempClients</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=j, country=Belgium, mobileNumber=8989868696, caseTitle=Legal Case 13, searchTextEntity=Emma, contactPerson=Emma, emailId=emma@gm.com, countryEntitys=Belgium, individualsClientName2=Ananth kumar, confirmEmail=james@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=emma@gm.com, groupName2=Immigration Law, firstName=James, phoneNumber=9696969693, caseNumber=AB013, searchTextIndividuals=James, firmName=Emma Firm, groupName1=Family Law, email=james@gm.com}</td>
+<td></td>
+<td>147</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsWithDocuments()'><b>clientsIndividualsWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Vengadesh GH 1, documentName2=AnathKumar GH 1, caseNumber=AB03, caseTitle=Legal Case 3, individualsClientName2=Ananth kumar, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>89</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityWithTeamMembers()'><b>clientsIndividualsandEntityWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB010, caseTitle=Legal Case 10, memberName1=Donald Carpenter, entityClientName1=Alliance Law Group, memberName2=Jason Gifford, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>89</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityWithTeamMembers()'><b>clientsEntityWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB06, caseTitle=Legal Case 6, entityClientName2=Apollo Healthcare, memberName1=Donald Carpenter, entityClientName1=Alliance Law Group, memberName2=Jason Gifford, groupName1=Family Law}</td>
+<td></td>
+<td>89</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityWithTMandDocuments()'><b>clientsIndividualsandEntityWithTMandDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Vengadesh GH 1, documentName2=Alliance TM 2, caseNumber=AB012, caseTitle=Legal Case 12, memberName1=Donald Carpenter, entityClientName1=Alliance Law Group, memberName2=Jason Gifford, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>102</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityandTempClientsWithTeamMembers()'><b>clientsEntityandTempClientsWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=s, country=Belgium, mobileNumber=7878454545, caseTitle=Legal Case 18, searchTextEntity=Harper, contactPerson=Harper, emailId=Harper@gm.com, countryEntitys=Belgium, memberName1=Donald Carpenter, memberName2=Jason Gifford, confirmEmail=Sophia@gm.com, confirmEmailId=Harper@gm.com, groupName2=Immigration Law, firstName=Sophia, phoneNumber=7878989896, caseNumber=AB018, searchTextIndividuals=Sophia, entityClientName2=Apollo Healthcare, firmName=Harper Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Sophia@gm.com}</td>
+<td></td>
+<td>160</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityandTempClients()'><b>clientsEntityandTempClients</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=G, country=Belgium, mobileNumber=8989868696, caseTitle=Legal Case 17, searchTextEntity=Liam, contactPerson=Liam, emailId=Liam@gm.com, countryEntitys=Belgium, confirmEmail=Grace@gm.com, confirmEmailId=Liam@gm.com, groupName2=Immigration Law, firstName=Grace, phoneNumber=9696969693, caseNumber=AB017, searchTextIndividuals=Grace, entityClientName2=Apollo Healthcare, firmName=Liam Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Grace@gm.com}</td>
+<td></td>
+<td>148</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntity()'><b>clientsIndividualsandEntity</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, caseNumber=AB09, caseTitle=Legal Case 9, entityClientName1=Alliance Law Group, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>77</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsEntityandTempClientsWithDocuments()'><b>clientsEntityandTempClientsWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=F, country=Belgium, documentName1=Alliance TM 2, documentName2=Apollo TM 2, mobileNumber=7878454540, caseTitle=Legal Case 19, searchTextEntity=Evelyn, contactPerson=Evelyn, emailId=Evelyn@gm.com, countryEntitys=Belgium, confirmEmail=Alice@gm.com, confirmEmailId=Evelyn@gm.com, groupName2=Immigration Law, firstName=Alice, phoneNumber=7878454545, caseNumber=AB019, searchTextIndividuals=Alice, entityClientName2=Apollo Healthcare, firmName=Evelyn Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Alice@gm.com}</td>
+<td></td>
+<td>161</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityWithDocuments()'><b>clientsIndividualsandEntityWithDocuments</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {groupName2=Immigration Law, documentName1=Vengadesh GH 1, documentName2=Alliance TM 2, caseNumber=AB011, caseTitle=Legal Case 11, entityClientName1=Alliance Law Group, groupName1=Family Law, individualsClientName1=Vengadeshwaran Ramamoorthy}</td>
+<td></td>
+<td>89</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+<tr>
+<td title='com.test.CreateMatterTest.clientsIndividualsandEntityandTempClientsWithTeamMembers()'><b>clientsIndividualsandEntityandTempClientsWithTeamMembers</b><br>Test class: com.test.CreateMatterTest<br>Parameters: {lastName=W, country=Belgium, mobileNumber=7878454545, caseTitle=Legal Case 22, searchTextEntity=Hazel, contactPerson=Hazel, emailId=Hazel@gm.com, countryEntitys=Belgium, memberName1=Donald Carpenter, memberName2=Jason Gifford, confirmEmail=Lily@gm.com, individualsClientName1=Vengadeshwaran Ramamoorthy, confirmEmailId=Hazel@gm.com, groupName2=Immigration Law, firstName=Lily, phoneNumber=7878989896, caseNumber=AB022, searchTextIndividuals=Lily, firmName=Hazel Firm, entityClientName1=Alliance Law Group, groupName1=Family Law, email=Lily@gm.com}</td>
+<td></td>
+<td>165</td>
+<td>com.test.CreateMatterTest@72d6b3ba</td></tr>
+</table><p>
+</body>
+</html>

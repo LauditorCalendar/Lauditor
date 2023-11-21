@@ -1,0 +1,49 @@
+[
+	{
+		"_comment":"0.Select Groups and UnSelect Group and Save",
+		"CaseName": "Legal Custody Case",
+		"selectgroupName1": "Civil Laws Case 12",
+		"selectgroupName2": "Corporate Law Interns",
+		"unSelectgroupName1": "Immigration Law",
+		"unSelectgroupName2": "Family Law"
+	},
+	{
+		
+		"_comment":"1.Unselect Groups and select Groups",
+		"CaseName": "Legal Custody Case",
+		"unSelectgroupName1": "Civil Laws Case 12",
+		"unSelectgroupName2": "Corporate Law Interns",
+		"selectgroupName1": "Immigration Law",
+		"selectgroupName2": "Family Law"
+
+
+	},
+	{
+		"_comment":"2.select Multiple Groups",
+		"CaseName": "Legal Custody Case",
+		"selectgroupName1": "Civil Laws Case 12",
+		"selectgroupName2": "Corporate Law Interns"
+	},
+	{
+		
+		"_comment":"3.Unselect Multiple Groups",
+		"CaseName": "Legal Custody Case",
+		"unSelectgroupName1": "Civil Laws Case 12",
+		"unSselectgroupName2": "Corporate Law Interns",
+		"unSelectgroupName3": "Family Law",
+		"unSselectgroupName4": "Immigration Law"
+	},
+	{
+		"_comment":"4.Alert Is Display or not",
+		"CaseName": "Legal Custody Case",
+		"groupName":"Intellectual Property Law"
+		
+	},
+	{
+		"_comment":"5.Check GroupNames are Display Correct or not ",
+		"CaseName": "Legal Custody Case",
+		"selectgroupName1": "Civil Laws Case 12",
+		"selectgroupName2": "Corporate Law Interns"
+	}
+	
+]

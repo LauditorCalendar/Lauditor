@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-09T16:08:31 IST" name="Default suite" finished-at="2023-10-09T16:09:18 IST" duration-ms="47257">
+    <groups>
+    </groups>
+    <test started-at="2023-10-09T16:08:31 IST" name="Default test" finished-at="2023-10-09T16:09:18 IST" duration-ms="47257">
+      <class name="com.test.ViewMembersTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.test.ViewMembersTest@7d8704ef]" started-at="2023-10-09T16:08:31 IST" name="launchApplication" finished-at="2023-10-09T16:08:37 IST" duration-ms="6079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="newdeleteMemberAccount(java.util.HashMap)[pri:5, instance:com.test.ViewMembersTest@7d8704ef]" started-at="2023-10-09T16:08:38 IST" name="newdeleteMemberAccount" data-provider="getData5" finished-at="2023-10-09T16:09:18 IST" duration-ms="40415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{memberEmailId3=rokberk19@gm.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newdeleteMemberAccount -->
+        <test-method is-config="true" signature="down()[pri:0, instance:com.test.ViewMembersTest@7d8704ef]" started-at="2023-10-09T16:09:18 IST" name="down" finished-at="2023-10-09T16:09:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- com.test.ViewMembersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

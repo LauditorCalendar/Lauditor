@@ -1,0 +1,97 @@
+[
+	
+	{ 
+	    "Name": "Test Member 1",
+		"Designation": "Lawyer",
+		"DefaultRate": "100",
+		"Email": "Member12@gmail.com",
+		"ConfirmEmail": "Member12@gmail.com",
+		"CurrencyName": "Pound(GBP)"
+	},
+	{
+		"Name": "Digi1",
+		"Designation": "Member",
+		"DefaultRate": "100",
+		"Email": "Vengadesh12@yj.com",
+		"ConfirmEmail": "Vengadesh12@yj.com",
+		"CurrencyName": "Pound(GBP)",
+		"addGroups1": "Corporative Law",
+		"addGroups2": "Regression Group",
+		"addGroups3": "Pupil Law 1",
+		"teamMemberAssert":"Digi1"
+	},
+	{
+	    "Name": "Test Member 2",
+		"Designation": "Lawyer",
+		"DefaultRate": "200",
+		"Email": "Member123@gmail.com",
+		"ConfirmEmail": "Member12@gmail.com",
+		"CurrencyName": "Pound(GBP)",
+		"mismatchError":"Confirm email does not match"
+	},
+	{
+	    "Name": "Test Member 3",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa87@gmail.com",
+		"ConfirmEmail": "neelachinnappa87@gmail.com",
+		"CurrencyName": "Pound(GBP)",
+		"firmNameExistError":"Email already in use within the firm."
+	},
+	{
+	"Name": "Test Member 4",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa87@gmail.com",
+		"ConfirmEmail": "neelachinnappa87@gmail.com",
+		"CurrencyName": "Pound(GBP)",
+		"expectPage":"Name"
+	},
+	{
+	"Name": "Test Member 5",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa87@gmail.com",
+		"ConfirmEmail": "neelachinnappa87@gmail.com",
+		"CurrencyName": "Pound(GBP)",
+		"expectPage1":"Default Currency"
+	},
+	{
+	"Name": "Test Member 6",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa872@gmail.com",
+		"ConfirmEmail": "neelachinnappa872@gmail.com",
+		"CurrencyName": "Euro(EUR)",
+		"addGroups1": "Corporative Law",
+		"addGroups2": "Regression Group",
+		"addGroups3": "Pupil Law 1",
+		"expectPage1":"Default Currency"
+	}, 
+	{
+	    "Name": "Test Member 6",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa872@gmail.com",
+		"ConfirmEmail": "neelachinnappa872@gmail.com",
+		"CurrencyName": "Euro(EUR)",
+		"addGroups1": "Corporative Law",
+		"addGroups2": "Regression Group",
+		"addGroups3": "Pupil Law 1",
+		"expectPage":"Name"
+		
+	},
+	{
+	"Name": "Test Member 7",
+		"Designation": "Lawyer",
+		"DefaultRate": "400",
+		"Email":"neelachinnappa872@gmail.com",
+		"ConfirmEmail": "neelachinnappa872@gmail.com",
+		"CurrencyName": "Euro(EUR)",
+		"addGroups1": "Corporative Law",
+		"addGroups2": "Regression Group",
+		"addGroups3": "Pupil Law 1"
+		
+	}
+	
+]
